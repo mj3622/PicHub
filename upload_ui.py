@@ -6,7 +6,6 @@ from tkinter import Tk, messagebox
 from tkinter.filedialog import askopenfilename
 import webbrowser
 from configparser import ConfigParser
-import github.GithubException
 
 def select_image():
     Tk().withdraw() 
